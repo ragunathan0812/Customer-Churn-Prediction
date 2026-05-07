@@ -1,0 +1,14 @@
+Customer Churn Prediction - Model Performance Report
+==================================================
+
+ROC-AUC Score: 0.8967
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.92      0.89      5174
+           1       0.73      0.58      0.65      1869
+
+    accuracy                           0.83      7043
+   macro avg       0.79      0.75      0.77      7043
+weighted avg       0.82      0.83      0.83      7043

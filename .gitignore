@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data and Models (Don't track large binary files)
+data/processed/*.csv
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+.env
